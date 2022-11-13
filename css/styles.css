@@ -11,58 +11,54 @@
 section {
   background: lightgray;
   padding: 1em;
-  
+
   /* Relative Parent. Absolute Child */
   position: relative;
 }
 
 /* Time */
-.time {
-}
+.time {}
 
-.hours {
-}
+.hours {}
 
-.minutes {
-}
+.minutes {}
 
-.seconds {
-}
+.seconds {}
 
-.amOrPM {
-  
-}
+.amOrPM {}
 
 /* Date */
-.date {
-  
-}
+.date {}
 
-.month {
-}
+.month {}
 
-.dayOfMonth {
-}
+.dayOfMonth {}
 
-.year {
-}
+.year {}
 
-.dayOfWeek {
-}
+.dayOfWeek {}
 
 /* Weather */
-.weather {
-  
-}
+.weather {}
 
-.city {
-  
-}
+.city {}
 
-.temp {
-  
-}
+.temp {}
 
-.weather img {
-  
+.weather img {}
+
+/* video */
+video {
+  /* Position video      */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* stack behind content     */
+  z-index: -1;
+  /* fill background with video    */
+  object-fit: cover;
+  object-position: center;
+
 }
