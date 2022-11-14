@@ -3,7 +3,7 @@
   /* Set your own grid   */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 400px;
+  grid-template-rows: 200px;
   grid-column-gap: 1em;
 }
 
@@ -12,7 +12,7 @@ section {
   background: #ffdbe6;
   padding: 1em;
   opacity: 70%;
-
+  border-radius: 5px;
   /* Relative Parent. Absolute Child */
   position: relative;
 }
