@@ -1,10 +1,18 @@
 /* Grid */
-.layout {
-  /* Set your own grid   */
-  display: grid;
+/* .layout { */
+/* Set your own grid   */
+/* display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 200px;
   grid-column-gap: 1em;
+} */
+.layout {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+  gap: 1rem;
+  max-width: fit-content;
+  max-height: fit-content;
 }
 
 /* Widgets */
@@ -19,13 +27,21 @@ section {
 
 
 /* Time */
-.time {}
+.time {
+  font-size: 2rem;
+}
 
-.hours {}
+.hours {
+  font-size: 2rem;
+}
 
-.minutes {}
+.minutes {
+  font-size: 2rem;
+}
 
-.seconds {}
+.seconds {
+  font-size: 2rem;
+}
 
 .amOrPM {}
 
@@ -42,12 +58,16 @@ img {
 
 .year {}
 
-.dayOfWeek {}
+.dayOfWeek {
+  font-size: 2rem;
+}
 
 /* Weather */
 .weather {}
 
-.city {}
+.city {
+  font-size: 2rem;
+}
 
 .temp {}
 

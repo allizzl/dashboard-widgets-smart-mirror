@@ -20,7 +20,6 @@ fetch(url)
 
     // Template to output
     const template = `
-    <h1>Weather</h1>
     <data value="${data.name}" class="city">${data.name}</data>
     <data value="${data.main.temp}" class="temp">${data.main.temp}&#8457;</data>
     <data value="${data.main.feels_like}" class="feelslike">feels like: ${data.main.feels_like}&#8457;</data>
