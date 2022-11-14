@@ -17,6 +17,7 @@ section {
   position: relative;
 }
 
+
 /* Time */
 .time {}
 
@@ -27,6 +28,10 @@ section {
 .seconds {}
 
 .amOrPM {}
+
+img {
+  width: 3rem;
+}
 
 /* Date */
 .date {}
