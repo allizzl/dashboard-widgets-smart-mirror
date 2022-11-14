@@ -9,8 +9,9 @@
 
 /* Widgets */
 section {
-  background: lightgray;
+  background: #ffdbe6;
   padding: 1em;
+  opacity: 70%;
 
   /* Relative Parent. Absolute Child */
   position: relative;
