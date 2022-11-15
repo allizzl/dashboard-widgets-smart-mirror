@@ -6,6 +6,9 @@
   grid-template-rows: 200px;
   grid-column-gap: 1em;
 } */
+
+@import url(excon.css);
+
 .layout {
   display: flex;
   flex-direction: column;
@@ -60,6 +63,7 @@ img {
 
 .dayOfWeek {
   font-size: 2rem;
+  font-family: 'Excon-Bold';
 }
 
 /* Weather */
