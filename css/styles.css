@@ -32,6 +32,7 @@ section {
 /* Time */
 .time {
   font-size: 2rem;
+  font-family: 'Excon-Bold';
 }
 
 .hours {
@@ -53,7 +54,9 @@ img {
 }
 
 /* Date */
-.date {}
+.date {
+  font-family: 'Excon-Regular';
+}
 
 .month {}
 
@@ -71,9 +74,16 @@ img {
 
 .city {
   font-size: 2rem;
+  font-family: 'Excon-Bold';
 }
 
-.temp {}
+.feelslike {
+  font-family: 'Excon-Regular';
+}
+
+.temp {
+  font-family: 'Excon-Regular';
+}
 
 .weather img {}
 
