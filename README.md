@@ -1,7 +1,9 @@
-# dashboard-widgets-smart-mirror
+# Hello-Reflection
 
-Smart mirror with dashboard widgets
+ A Hello Kitty Themed [Smart mirror](https://hello-reflection.netlify.app/) app with dashboard widgets
 
-favicons made with (favicon.io)
-Hello Kitty sticker from (https://www.pngwing.com/en/free-png-zeued)
-font from (https://www.fontshare.com/)
+## Citations
+* favicons made with (favicon.io)
+* Hello Kitty sticker from (https://www.pngwing.com/en/free-png-zeued)
+* font from [fontshare](https://www.fontshare.com/)
+* Weather widget info from [openweather API](https://openweathermap.org/api)
